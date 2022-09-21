@@ -1,39 +1,54 @@
-html, body {
-  height: 100%;
-  width: 100%;
+#footer {
+  position: absolute;
+  bottom: 1%;
 }
 .buttons {
   text-align: center;
-  position:absolute;
-  top: 50%;
-  left: 42%;
-
+  position: absolute;
+  bottom: 20%;
+  margin: 0 auto;
+  top: 60%;
+  left: 15%;
+  right: 15%;
   
 }
 .github {
- color: #0080c0;
-  font-size: 24px;
-  background: darkgrey;
+  margin: 0 auto;
+ color: whitesmoke;
+  border: 8px solid white;
+  background: transparent;
+  font-size: 48px;
+  margin-left:100px;
 }
-.contact{
-  
-   color: #0080c0;
-  font-size: 24px;
-  background: darkgrey;
-  
-}
+
 .content {
   text-align: center;
   position: absolute;
-  top: 15%;
-  left: 26%;
-  right: 24%;
+  margin: 0 auto;
+  top: 15vh;
+  left: 38%;
+  right: 38%;
+  bottom: 85vh;
   color: white;
   font-weight: bold;
-  font: 1.3rem Inconsolata, monospace;
+  font: 8.0rem Inconsolata, monospace;
   font-family: 'Quantico', sans-serif;
+  text-decoration-line: underline;
   
 }
 background.jpeg{
   opacity: 1;
+  width: auto;
+  height: auto;
+}
+.connect {
+ vertical-align: bottom;
+ bottom: 0%;
+ top: 100%;
+ left: 100%;
+ background: transparent;
+}
+.images {
+  bottom: 0%;
+  background: transparent;
 }

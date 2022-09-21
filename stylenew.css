@@ -1,0 +1,34 @@
+\html,body {
+	height: 100%;
+	width: 100%;
+}
+.content {
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  top: 20%;
+  left: 22%;
+  right: 22%;
+  bottom: 30%;
+  color: white;
+  font-weight: bold;
+  font: 4.0rem Inconsolata, monospace;
+  font-family: 'Quantico', sans-serif;
+}
+.buttons {
+  text-align: center;
+  position:absolute;
+  margin: 0 auto;
+  top: 80%;
+  left: 18%
+}
+.github{
+  color: whitesmoke;
+  border: 4px solid white;
+  background: transparent;
+  font-size: 48px;  
+  margin-left: 100px;
+}
+.Back{
+ left: 2%;
+}
